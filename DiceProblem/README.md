@@ -11,7 +11,7 @@ The total number of ways to reach the target sum is then calculated by summing u
 Memoization is used to optimize the recursive solution by storing and reusing intermediate results.
 
 ## Pseudocode:
-![Logo]()
+![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/DiceProblem/assets/Screenshot%202024-03-12%20183854.png)
 
         
 This code takes input for the target sum 'n' and calculates the number of ways to construct the sum using the given dice. It then outputs the result, and this process is repeated for each test case.
