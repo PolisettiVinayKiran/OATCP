@@ -11,32 +11,7 @@ The total number of ways to reach the target sum is then calculated by summing u
 Memoization is used to optimize the recursive solution by storing and reusing intermediate results.
 
 ## Pseudocode:
-Function calc_ways(target, faces, dp):
-    if target is 0:
-        return 1
-    if dp[target] is not -1:
-        return dp[target]
-    ways = 0
-    for each face in faces:
-        if face is less than or equal to target:
-            ways += calc_ways(target - face, faces, dp)
-    dp[target] = ways
-    return ways
-
-Function solve():
-    faces = [1, 2, 3, 4, 5, 6]
-    target = input from user
-    if target is less than or equal to 0:
-        print 0
-        return
-    Initialize dp array with -1
-    ans = calc_ways(target, faces, dp)
-    print ans
-
-Main:
-    Read test cases from input
-    for each test case:
-        call solve function
+![Logo]()
 
         
 This code takes input for the target sum 'n' and calculates the number of ways to construct the sum using the given dice. It then outputs the result, and this process is repeated for each test case.
