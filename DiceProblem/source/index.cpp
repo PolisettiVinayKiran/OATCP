@@ -35,7 +35,7 @@ void solve()
     int n = faces.size();
     int target;
     cin >> target;
-    if(target <= 0)
+    if(target < 0)
     {
         cout << 0 << "\n";
         return;
