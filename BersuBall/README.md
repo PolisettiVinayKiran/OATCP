@@ -16,7 +16,7 @@ The problem "Bersu Ball" involves finding the maximum number of pairs that can b
 - By efficiently storing and reusing intermediate results, the dynamic programming approach optimizes the solution by eliminating redundant computations.
 
 ## Pseudocode:
-![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/DiceProblem/assets/Screenshot%202024-03-12%20183854.png)
+![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/BersuBall/assets/Screenshot%202024-03-19%20165042.png)
 
 ## Dynamic Programming (DP) Explanation:
 

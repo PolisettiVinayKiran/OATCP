@@ -11,15 +11,15 @@ Next, the algorithm iterates through each element of the array in reverse order.
 Finally, the algorithm returns the maximum value `res`.
 
 **Pseudocode:**
-![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/MaximumProductSubarray/assets/Screenshot%202024-03-19%20164648.png)
+![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/RotateFunction/assets/Screenshot%202024-03-19%20165622.png)
 
 **Dynamic Programming (DP) Explanation:**
 
 - **Overlapping Subproblems:** In this problem, the overlapping subproblems occur when we repeatedly compute the value of the function `F` for different rotations of the array. This is because the same subproblem may be encountered multiple times during the computation.
   
-- **Optimization:** Dynamic programming is not directly used in this solution. Instead, the solution optimally calculates the maximum value of the function `F` in a single pass through the array, without storing intermediate results. 
+- **Optimization:** The solution optimally calculates the maximum value of the function `F` in a single pass through the array, without storing intermediate results. 
   
-- **Identifying Subproblems:** The problem does not explicitly break down into smaller subproblems that can be solved independently. Instead, the solution iteratively updates the value of the function `F` for each rotation of the array, keeping track of the maximum value encountered so far.
+- **Identifying Subproblems:** The solution iteratively updates the value of the function `F` for each rotation of the array, keeping track of the maximum value encountered so far.
 
 **Input and Output:**
 
