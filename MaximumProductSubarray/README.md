@@ -14,26 +14,7 @@ The problem "Maximum Product Subarray" involves finding the maximum product that
 - Finally, it returns the maximum product obtained from the subarrays.
 
 **Pseudocode:**
-
-Function get_max_prod(v):
-    Initialize maxi to negative infinity
-    Iterate through the array v:
-        Update maxi with the maximum value between maxi and v[i]
-    Initialize res to maxi
-    Initialize cur_min and cur_max to 1
-    Iterate through the array v:
-        If v[i] is 0:
-            Reset cur_min and cur_max to 1
-        Else:
-            Update cur_max and cur_min by considering all possible combinations of v[i] with cur_max and cur_min
-            Update res with the maximum value between res and cur_max
-    Return res
-
-Main:
-    Read the size of the array (n) from input
-    Read the elements of the array (v) from input
-    Call the get_max_prod function with array v
-    Print the result
+![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/MaximumProductSubarray/assets/Screenshot%202024-03-19%20164648.png)
 
 
 **Dynamic Programming (DP) Explanation:**
@@ -46,6 +27,6 @@ Main:
 
 **Input and Output:**
 
-- The code takes input from a file named "Max_Prod_SubArray_input_2.txt", which contains the size of the array and the elements of the array.
+- The code takes input from a file, which contains the size of the array and the elements of the array.
 - It outputs the maximum product of subarrays that can be obtained from the given array.
 
