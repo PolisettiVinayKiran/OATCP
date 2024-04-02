@@ -7,7 +7,7 @@ The problem "Generate Largest Number" involves arranging a given list of non-neg
 The `generate_largest_number` function creates the largest possible number by rearranging a list of non-negative integers. It sorts the numbers based on their concatenated forms to maximize the resulting number's value. If all input numbers are zeros, it returns "0" as the largest number. Otherwise, it concatenates the sorted strings to form the largest possible number. This approach ensures that the resulting number is as large as possible by prioritizing digits that contribute the most to its magnitude.
 
 **Pseudocode:**
-![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/RotateFunction/assets/Screenshot%202024-03-19%20165622.png)
+![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/LargestNumber/assets/Screenshot%202024-04-02%20170524.png)
 
 **Greedy Approach Explanation:**
 

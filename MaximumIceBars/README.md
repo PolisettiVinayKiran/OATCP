@@ -9,7 +9,7 @@ The function get_max_icebars iterates through the sorted array of ice bar costs 
 
 
 **Pseudocode:**
-![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/RotateFunction/assets/Screenshot%202024-03-19%20165622.png)
+![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/MaximumIceBars/assets/Screenshot%202024-04-02%20162822.png)
 
 **Greedy Approach Explanation:**
 
