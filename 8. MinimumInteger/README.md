@@ -7,7 +7,7 @@ The problem "Remove K Digits" involves removing k digits from a given non-negati
 The function remove_k_digits aims to find the smallest possible number that can be obtained by removing k digits from a given non-negative integer num. It utilizes a greedy approach to iteratively remove digits from the number while maintaining the resulting number's smallest possible value.
 
 **Pseudocode:**
-![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/MaximumIceBars/assets/Screenshot%202024-04-02%20162822.png)
+![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/8.%20MinimumInteger/assets/Screenshot%202024-04-09%20165047.png)
 
 **Greedy Algorithm Explanation:**
 

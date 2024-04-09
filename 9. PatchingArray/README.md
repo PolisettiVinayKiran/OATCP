@@ -14,7 +14,7 @@ The approach works as follows:
 - This process ensures that the missing integers are covered in the most efficient manner, minimizing the number of patches required.
 
 **Pseudocode:**
-![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/MaximumIceBars/assets/Screenshot%202024-04-02%20162822.png)
+![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/9.%20PatchingArray/assets/Screenshot%202024-04-09%20173319.png)
 
 **Greedy Approach Explanation:**
 
