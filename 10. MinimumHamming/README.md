@@ -7,7 +7,7 @@ The problem involves finding the sum of Hamming distances between all pairs of i
 The code aims to compute the total Hamming distance between all pairs of the given numbers. It adopts a bitwise approach to construct the total Hamming distance incrementally. By iterating through each bit position of the numbers, starting from the Least Significant Bit (LSB), it calculates the Hamming distance contributed by that bit. For each bit position, it counts the number of numbers with 0 and 1 as the bit value. Then, it considers pairs of numbers where one number has 0 and the other has 1 at that bit position, as these pairs contribute to the total Hamming distance. By multiplying the counts of numbers with 0 and 1 at each bit position, it calculates the total Hamming distance contributed by that bit. This process is repeated for all bit positions, effectively computing the total Hamming distance between all pairs of numbers.
 
 **Pseudocode:**
-![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/8.%20MinimumInteger/assets/Screenshot%202024-04-09%20165047.png)
+![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/10.%20MinimumHamming/assets/image.png)
 
 **Bit Manipulation Explanation:**
 
