@@ -7,7 +7,7 @@ The problem involves finding the maximum flow in a given graph using the Ford-Fu
 The provided algorithm implements the Ford-Fulkerson Algorithm to find the maximum flow in a given flow network graph. It utilizes a breadth-first search (BFS) approach to find augmenting paths from the source to the sink in the residual graph, where residual capacities represent the remaining capacity of edges after flow has been sent. The BFS efficiently explores the graph to find paths with available capacity, optimizing the search process. By iteratively updating the residual capacities along augmenting paths and incrementing the maximum flow accordingly, the algorithm gradually increases the flow until no more augmenting paths can be found. This iterative process efficiently maximizes the flow through the network. Additionally, the algorithm measures and outputs the execution time to provide insights into its performance. The algorithm has a time complexity of O(V*E^2) and space complexity of O(V).
 
 **Pseudocode:**
-![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/11.%20CountingSubgrids/assets/Screenshot%202024-04-16%20164611.png)
+![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/12.%20FindingMaxFlow/assets/Screenshot%202024-04-23%20170150.png)
 
 **BFS and Residual Graph Optimization Explanation:**
 
