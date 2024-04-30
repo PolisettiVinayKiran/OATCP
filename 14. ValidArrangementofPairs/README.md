@@ -7,7 +7,7 @@ The problem "Valid Arrangement of Pairs" involves arranging pairs of integers `(
 The given algorithm solves the problem of finding a valid arrangement of pairs of integers `(s, e)` such that for every index `i`, `0 <= i < pairs.length`, the end element `e` of the pair at index `i` matches the start element `s` of the pair at index `i+1`. It utilizes a Depth-First Search (DFS) approach to traverse the directed graph constructed from the pairs of integers, ensuring that all edges are covered. The algorithm begins by identifying the starting node for the DFS traversal based on the in-degree and out-degree of each node. It then performs a modified DFS traversal, backtracking as necessary to explore all edges and construct the Eulerian path. This path is then reversed to obtain the final valid arrangement of pairs. By utilizing DFS and carefully handling the graph traversal, the algorithm efficiently outputs a valid arrangement of pairs or -1 if no valid arrangement exists, ensuring correctness and optimal performance.
 
 **Pseudocode:**
-![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/12.%20FindingMaxFlow/assets/Screenshot%202024-04-23%20170150.png)
+![Logo](https://github.com/PolisettiVinayKiran/OATCP/blob/main/14.%20ValidArrangementofPairs/assets/Screenshot%202024-04-30%20183402.png)
 
 **BFS and Residual Graph Optimization:**
 
